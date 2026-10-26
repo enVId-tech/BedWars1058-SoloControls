@@ -1,0 +1,6 @@
+# Seconds of countdown after /bw start (BedWars itself refuses to go below 5; this plugin does not).
+start-countdown: 3
+
+# Intercept "/bw start" and "/bedwars start" typed by players with solocontrols.use while they are in an
+# arena lobby. Everyone else (and every other /bw sub command) is handled by BedWars as usual.
+intercept-bw-start: true

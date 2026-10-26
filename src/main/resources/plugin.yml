@@ -1,0 +1,22 @@
+name: BedWars1058-SoloControls
+main: dev.etran.SoloControlsPlugin
+version: ${version}
+api-version: 1.13
+softdepend: [BedWars1058, BedWars2023]
+description: Solo testing controls for BedWars1058 - force start and end games, adjustable in game.
+commands:
+  bw-solocontrols:
+    aliases: [bwdebug, bwd, bwsc]
+    description: BedWars debug helper.
+    usage: "/bw-solocontrols <start [seconds] | end | reload | config ...>"
+    permission: solocontrols.use
+permissions:
+  solocontrols.use:
+    description: Use /bw start and /bw-solocontrols.
+    default: op
+  solocontrols.end:
+    description: End the game you are playing in with /bw-solocontrols end.
+    default: op
+  solocontrols.end.spectating:
+    description: End the game you are spectating with /bw-solocontrols end.
+    default: op
