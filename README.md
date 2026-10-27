@@ -15,3 +15,9 @@ Ends the game immediately (BedWars sends everyone back to the lobby and resets t
 * Playing in the game: needs `solocontrols.end`.
 * Spectating the game: needs `solocontrols.end.spectating`.
 Both default to op. Aliases: `/bwsc`, `/bwd`, `/bwdebug`.
+
+## Developer note
+This plugin is coded with AI assistance and architected completely by me. Regardless, use at your own risk.
+
+## License
+This plugin is under the MIT License, check the [License](LICENSE) file for more details.
